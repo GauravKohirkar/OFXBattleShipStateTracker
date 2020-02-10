@@ -1,0 +1,12 @@
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.deps.json
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Data.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Data.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.csprojResolveAssemblyReference.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.csproj.CoreCompileInputs.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.AssemblyInfoInputs.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.AssemblyInfo.cs
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.csproj.CopyComplete
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Repo\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.pdb

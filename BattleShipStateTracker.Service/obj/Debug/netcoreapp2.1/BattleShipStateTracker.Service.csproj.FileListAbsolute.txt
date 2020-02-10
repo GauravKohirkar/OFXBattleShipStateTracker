@@ -1,0 +1,14 @@
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Service.deps.json
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Service.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Service.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.csproj.CoreCompileInputs.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.AssemblyInfoInputs.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.AssemblyInfo.cs
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Data.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.dll
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Data.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\bin\Debug\netcoreapp2.1\BattleShipStateTracker.Repo.pdb
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.csprojResolveAssemblyReference.cache
+D:\BattleShipStateTracker\BattleShipStateTracker.Service\obj\Debug\netcoreapp2.1\BattleShipStateTracker.Service.csproj.CopyComplete

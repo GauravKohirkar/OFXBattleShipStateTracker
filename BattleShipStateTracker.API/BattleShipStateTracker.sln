@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShipStateTracker.API", "BattleShipStateTracker.API.csproj", "{90EC80B3-2AE8-4644-B1E2-42DE69F2371C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShipStateTracker.Data", "..\BattleShipStateTracker.Data\BattleShipStateTracker.Data.csproj", "{722EBEAE-62A3-4881-BDDE-75939E3070C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShipStateTracker.Repo", "..\BattleShipStateTracker.Repo\BattleShipStateTracker.Repo.csproj", "{E685012E-3C8F-495B-8358-11DD7C88AC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipStateTracker.Service", "..\BattleShipStateTracker.Service\BattleShipStateTracker.Service.csproj", "{07D798AE-1193-49A7-9B93-8E8DF221EE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipStateTracker.Tests", "..\BattleShipStateTracker.Tests\BattleShipStateTracker.Tests.csproj", "{F09DB2F5-E441-4A67-9B7C-39ED0EC95D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90EC80B3-2AE8-4644-B1E2-42DE69F2371C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EC80B3-2AE8-4644-B1E2-42DE69F2371C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EC80B3-2AE8-4644-B1E2-42DE69F2371C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EC80B3-2AE8-4644-B1E2-42DE69F2371C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{722EBEAE-62A3-4881-BDDE-75939E3070C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722EBEAE-62A3-4881-BDDE-75939E3070C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722EBEAE-62A3-4881-BDDE-75939E3070C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722EBEAE-62A3-4881-BDDE-75939E3070C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E685012E-3C8F-495B-8358-11DD7C88AC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E685012E-3C8F-495B-8358-11DD7C88AC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E685012E-3C8F-495B-8358-11DD7C88AC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E685012E-3C8F-495B-8358-11DD7C88AC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D798AE-1193-49A7-9B93-8E8DF221EE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D798AE-1193-49A7-9B93-8E8DF221EE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D798AE-1193-49A7-9B93-8E8DF221EE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D798AE-1193-49A7-9B93-8E8DF221EE18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09DB2F5-E441-4A67-9B7C-39ED0EC95D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09DB2F5-E441-4A67-9B7C-39ED0EC95D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09DB2F5-E441-4A67-9B7C-39ED0EC95D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09DB2F5-E441-4A67-9B7C-39ED0EC95D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5CF5890-D503-40A7-A5B4-D144ADAB12FF}
+	EndGlobalSection
+EndGlobal
