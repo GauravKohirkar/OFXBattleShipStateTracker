@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BattleShipStateTracker.Data.CommandsDto;
 using BattleShipStateTracker.Data.Exceptions;
+using BattleShipStateTracker.Data.ResponseDto;
 using BattleShipStateTracker.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -44,12 +45,12 @@ namespace BattleShipStateTracker.API.Controllers
         }
 
         [HttpPost]
-        [Produces(typeof(int))]
-        [ProducesResponseType(typeof(int), 200)]
+        [Produces(typeof(AttackResultDto))]
+        [ProducesResponseType(typeof(AttackResultDto), 200)]
         [ProducesResponseType(500)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
-        public async Task<ActionResult<int>> AttackShip([FromBody] AttackDto attackDto)
+        public async Task<ActionResult<AttackResultDto>> AttackShip([FromBody] AttackDto attackDto)
         {
             try
             {
