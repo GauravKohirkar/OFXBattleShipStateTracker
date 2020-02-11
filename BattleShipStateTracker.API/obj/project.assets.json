@@ -115,6 +115,45 @@
           "lib/netstandard2.0/AWSSDK.S3.dll": {}
         }
       },
+      "FluentValidation/8.6.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/8.6.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.1",
+          "FluentValidation.DependencyInjectionExtensions": "8.6.1",
+          "Microsoft.AspNetCore.Mvc": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.AspNetCore.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/8.6.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.1",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4665,6 +4704,52 @@
         "lib/uap/AWSSDK.S3.pdb",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "FluentValidation/8.6.1": {
+      "sha512": "QQO2GfAlxgWHmXf7p4vruMRqu0cpkLuZnqB9qbO+q4NFCseeYOG0uOjGoNE6DUvMukv2G0P4zLRcGglXhEDWkA==",
+      "type": "package",
+      "path": "fluentvalidation/8.6.1",
+      "files": [
+        ".signature.p7s",
+        "fluentvalidation.8.6.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/8.6.1": {
+      "sha512": "iARCrR+o/AYoEgbYiGQ4f9TOA76V+/H8HWQht5lFc2K2ILLwDtGBibWOaMgVGTjZSyIPVadOk64O8FJP1Np10g==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/8.6.1",
+      "files": [
+        ".signature.p7s",
+        "fluentvalidation.aspnetcore.8.6.1.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/netcoreapp3.0/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml",
+        "lib/netstandard2.0/FluentValidation.AspNetCore.dll",
+        "lib/netstandard2.0/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/8.6.1": {
+      "sha512": "BKieFTut/TBFaIzsXiaSugu1NCz5E+K6WZ67ZE1MLHFB9pMsD9r7V4Z2DUCODoggxBFMy0Lf4rx+siEgXOfSew==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/8.6.1",
+      "files": [
+        ".signature.p7s",
+        "fluentvalidation.dependencyinjectionextensions.8.6.1.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -11846,6 +11931,7 @@
       "BattleShipStateTracker.Data >= 1.0.0",
       "BattleShipStateTracker.Repo >= 1.0.0",
       "BattleShipStateTracker.Service >= 1.0.0",
+      "FluentValidation.AspNetCore >= 8.6.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -11912,6 +11998,10 @@
           "Amazon.Lambda.AspNetCoreServer": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[8.6.1, )"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",

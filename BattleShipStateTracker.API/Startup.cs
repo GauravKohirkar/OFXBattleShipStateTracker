@@ -1,8 +1,10 @@
+using BattleShipStateTracker.API.Filters;
 using BattleShipStateTracker.Data.Data;
 using BattleShipStateTracker.Repo;
 using BattleShipStateTracker.Repo.Interfaces;
 using BattleShipStateTracker.Service;
 using BattleShipStateTracker.Service.Interfaces;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +28,12 @@ namespace BattleShipStateTracker
         // This method gets called by the runtime. Use this method to add services to the container
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc(options =>
+            {
+                options.Filters.Add<ValidationFilter>();
+            })
+                .AddFluentValidation(config => config.RegisterValidatorsFromAssemblyContaining<Startup>())
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             // Add S3 to the ASP.NET Core dependency injection framework.
             services.AddAWSService<Amazon.S3.IAmazonS3>();
